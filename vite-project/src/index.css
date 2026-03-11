@@ -1,0 +1,159 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@import 'bootstrap/dist/css/bootstrap.min.css'; /* bootstrap import */
+
+
+body{
+    background-image: url('../public/images/17580.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.border-v2 {
+    border-width: 0 2px 0 0; /* top, right, bottom, left */
+    border-style: solid;
+    border-color: whitesmoke; /* Change this to your desired border color */
+}
+
+.border-v1 {
+    border-width: 0 2px 0 0; /* top, right, bottom, left */
+    border-style: solid;
+    border-color: whitesmoke; /* Change this to your desired border color */
+}
+
+/* ----------------------------Wheel---------------------- */
+@media (max-width: 575.98px) {
+    img{
+        width: 180px;
+    }
+}
+
+.rotate {
+    transform: rotate(720deg);
+    transition: transform 2s ease-in-out;
+}
+
+
+@media (max-width: 767px) {
+    .position-relative .position-absolute .button-link {
+        width:170px !important;
+        height: 170px !important;
+        font-size: 1.5rem !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .position-relative .position-absolute .button-link {
+        width:122px !important;
+        height: 122px !important;
+        font-size: 1.3rem !important;
+    }
+
+}
+
+@media (max-width: 660px) {
+
+    .logo{
+        width: 100px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .position-relative img {
+        max-width: 600px; /* Adjust as needed */
+    }
+}
+
+@media (max-width: 992px) {
+    .position-relative img {
+        max-width: 500px; /* Adjust as needed */
+    }
+}
+
+@media (max-width: 768px) {
+    .position-relative img {
+        max-width: 400px; /* Adjust as needed */
+    }
+}
+
+@media (max-width: 576px) {
+    .position-relative img {
+        max-width: 300px; /* Adjust as needed */
+    }
+}
+
+.inner-shadow {
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.452);
+}
+
+.accordion-header-custom .accordion-button::after{
+    background-image: initial;
+}
+
+.accordion-header-custom .accordion-button:not(.collapsed)::after{
+    background-image: initial;
+}
+
+svg{
+    padding-right: 8px;
+    width: 25px;
+}
+
+/* Login screen */
+
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #0d2c4b;
+}
+
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.0);
+    z-index: -1;
+}
+
+.logo-ifo{
+    width: 100px;
+}
+
+.logoIfo{
+    width: 100px;
+}
+
+.input-group .form-control:focus {
+    box-shadow: none;
+    border-color: #fff; /* Primary color */
+    outline: none;
+}
+
+.accordion-body{
+    background-color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #0d2c4b;
+    color: #fff;
+}
+
+.accordion-button{
+    display: flex;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #0d2c4b;
+    text-align: right;
+}
+
+.accordion-button.collapsed::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.logo{
+    width: 270px;
+}
+
